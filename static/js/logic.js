@@ -8,10 +8,10 @@ var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_mo
 function chooseColor(magnitude) {
   return magnitude > 5 ? "red":
     magnitude > 4 ? "orange":
-      magnitude > 3 ? "gold":
-        magnitude > 2 ? "yellow":
-          magnitude > 1 ? "yellowgreen":
-            "greenyellow"; // <= 1 default
+      magnitude > 3 ? "yellow":
+        magnitude > 2 ? "yellowgreen":
+          magnitude > 1 ? "lightgreen":
+            "green"; 
 }
 
 
